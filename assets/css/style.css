@@ -1,0 +1,33 @@
+.btn.btn-primary.btn-xl.js-scroll-trigger {
+}
+
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+  color: #fff;
+  background-color: #f50136!important;
+}
+
+.bg-primary {
+  background-color: #f50136!important;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #f50136;
+  border-color: #df3611;
+}
+
+.btn-primary {
+  background-color: #f50136;
+  border-color: #f50136;
+}
+
+a, a:hover {
+  color: #f50136;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #f50136;
+  border-color: #eb3812;
+}
+
