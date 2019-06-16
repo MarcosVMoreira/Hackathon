@@ -115,7 +115,9 @@ require_once("funcoes.php");
 
                 <div class="row">
                     <div class="col-md-6 offset-md-3">
-                        <button type="submit" class="btn btn-primary botaoAlteraTrilha">Alterar minha trilha</button>
+                        <a href="monteSuaTrilha.php">
+                            <button type="submit" class="btn btn-primary botaoAlteraTrilha">Alterar minha trilha</button>
+                        </a>
                     </div>
                 </div>
             </div>

@@ -117,7 +117,7 @@ function incluiSidebarMobileLogado(){
 	return '<div class="mobile-menu">
     <ul class="bottom-navbar-nav">
         <li class="bottom-nav-item active">
-            <a href="index.php" class="bottom-nav-link">
+            <a href="index-logado.php" class="bottom-nav-link">
                 <i class="fas fa-fw fa-home"></i>
                 <span>Início</span>
             </a>
@@ -165,7 +165,7 @@ function incluiSidebarNaoLogado(){
 function incluiSidebarLogado(){
 	return '<ul class="sidebar toggled navbar-nav" style="background: #f50136;">
         <li class="nav-item active">
-            <a class="nav-link" href="index.php">
+            <a class="nav-link" href="index-logado.php">
                 <i class="fas fa-fw fa-home"></i>
                 <span>Início</span>
             </a>

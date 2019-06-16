@@ -38,6 +38,11 @@ body{
   color: #000 !important;
 }
 
+.header-feedback{
+  height: 200px;
+  background: #0b75c9;
+}
+
 /*search box css*/
 .search-sec{
   padding: 2rem;
