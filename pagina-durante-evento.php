@@ -1,3 +1,9 @@
+<?php
+
+require_once("funcoes.php");
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -23,63 +29,10 @@
 
 <body id="page-top" class="sidebar-toggled">
 
-<div class="mobile-menu">
-    <ul class="bottom-navbar-nav">
-        <li class="bottom-nav-item active">
-            <a href="index.php" class="bottom-nav-link">
-                <i class="fas fa-fw fa-home"></i>
-                <span>Início</span>
-            </a>
-        </li>
-        <li class="bottom-nav-item">
-            <a data-toggle="modal" data-target="#loginModal" class="bottom-nav-link">
-                <i class="fas fa-fw fa-handshake"></i>
-                <span>Contatos</span>
-            </a>
-        </li>
-        <li class="bottom-nav-item">
-            <a data-toggle="modal" data-target="#cadastroModal" class="bottom-nav-link">
-                <i class="fas fa-fw fa-handshake"></i>
-                <span>Cadastrar-se</span>
-            </a>
-        </li>
-        <li class="bottom-nav-item">
-            <a href="cadastra-evento.html" class="bottom-nav-link">
-                <i class="fas fa-fw fa-handshake"></i>
-                <span>Publicar</span>
-            </a>
-        </li>
-
-    </ul>
-</div>
+<?= incluiSidebarMobileLogado(); ?>
 
 <div id="wrapper">
-    <ul class="sidebar toggled navbar-nav" style="background: #f50136;">
-        <li class="nav-item active">
-            <a class="nav-link" href="#page-top">
-                <i class="fas fa-fw fa-home"></i>
-                <span>Início</span>
-            </a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" data-toggle="modal" data-target="#loginModal">
-                <i class="fas fa-fw fa-handshake"></i>
-                <span>Contatos</span>
-            </a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" data-toggle="modal" data-target="#cadastroModal">
-                <i class="fas fa-fw fa-handshake"></i>
-                <span>Cadastrar-se</span>
-            </a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="cadastra-evento.html">
-                <i class="fas fa-fw fa-handshake"></i>
-                <span>Publicar evento</span>
-            </a>
-        </li>
-    </ul>
+    <?= incluiSidebarLogado(); ?>
 
     <div id="content-wrapper">
         <header class="masthead text-center text-white d-flex"

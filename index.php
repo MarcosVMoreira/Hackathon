@@ -252,7 +252,7 @@ require_once("funcoes.php");
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
             </div>
             <div class="modal-body">
-                <form class="form" action="dashboard.html" role="form" autocomplete="off" id="formLogin" novalidate=""
+                <form class="form" action="index-logado.php" role="form" autocomplete="off" id="formLogin" novalidate=""
                       method="POST">
                     <div class="form-group">
                         <!--<a href="" class="float-right">Novo usuário?</a>-->
@@ -269,7 +269,7 @@ require_once("funcoes.php");
                     </div>
                     <div class="form-group py-4" style="text-align: center;">
                         <button class="btn btn-primary" data-dismiss="modal" aria-hidden="true">Cancelar</button>
-                        <button type="submit" class="btn btn-primary" id="btnCadastro">Cadastrar-se</button>
+                        <button type="submit" class="btn btn-primary" id="btnCadastro">Entrar</button>
                     </div>
                 </form>
             </div>
@@ -286,7 +286,7 @@ require_once("funcoes.php");
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
             </div>
             <div class="modal-body">
-                <form class="form" action="dashboard.html" role="form" autocomplete="off" id="formCadastro"
+                <form class="form" action="index-logado.php" role="form" autocomplete="off" id="formCadastro"
                       novalidate="" method="POST">
                     <div class="form-group">
                         <!--<a href="" class="float-right">Novo usuário?</a>-->
@@ -319,7 +319,7 @@ require_once("funcoes.php");
                     </div>
                     <div class="form-group py-4" style="text-align: center;">
                         <button class="btn btn-primary" data-dismiss="modal" aria-hidden="true">Cancelar</button>
-                        <button type="submit" class="btn btn-primary" id="btnLogin">Entrar</button>
+                        <button type="submit" class="btn btn-primary" id="btnLogin">Cadastrar-se</button>
                     </div>
                 </form>
             </div>
