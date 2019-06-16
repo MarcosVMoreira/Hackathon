@@ -8,6 +8,13 @@ body{
   margin: 0 auto;
 }
 
+.btnFundoBranco {
+  width: 200px;
+  background-color: white;
+  color: #f50136;
+}
+
+
 .search-slt{
   width: 100%;
   font-size: 0.875rem;
