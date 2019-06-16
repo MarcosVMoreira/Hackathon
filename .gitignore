@@ -182,3 +182,9 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.gitignore.io/api/less,sass,linux,windows,pycharm+all,sublimetext,visualstudiocode
+
+*.zip
+
+examples/
+
+*.pdf
