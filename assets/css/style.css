@@ -14,6 +14,13 @@ body{
   color: #f50136 !important;
 }
 
+.botaoAlteraTrilha {
+  border-color: white;
+  color: #f50136;
+  background-color: white;
+  border-style: solid;
+}
+
 /*search box css*/
 .search-sec{
   padding: 2rem;
