@@ -2,6 +2,18 @@ body{
   font-family: "Open Sans",Helvetica Neue,Arial,sans-serif;
 }
 
+.botaoEvento {
+  padding: 10px;
+  border-color: white;
+  color: white;
+  border-style: solid;
+}
+
+.botaoEvento:hover {
+  background-color: white;
+  color: #f50136 !important;
+}
+
 /*search box css*/
 .search-sec{
   padding: 2rem;
