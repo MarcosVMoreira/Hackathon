@@ -95,7 +95,17 @@
                                 data-toggle="modal" data-target="#adicionaModal">
                                 Adicionar novo contato
                             </button>
-                            <hr class="my-4">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="financiamento" class="bg-primary">
+                <div class="container">
+                    <div class="row">
+                        <div class="col offset-lg-8 mx-auto text-center" id="divContato">
+                            <h2 class='text-white section-heading'>Contatos atuais</h2>
+                            <hr class='light my-4'>
                         </div>
                     </div>
                 </div>
@@ -123,14 +133,31 @@
     </div>
 
     <div id="adicionaModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>Adicionar contato</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                </div>
+                <div class="modal-body" style="align-content: center; text-align: center;">
+                    <video id="preview" style="max-height: 60% !important;"></video>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="modelDados" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h3>Adicionar contato</h3>
+                        <h3>Dados do contato</h3>
                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
                     </div>
-                    <div class="modal-body" style="align-content: center; text-align: center;">
-                        <video id="preview" style="max-height: 60% !important;"></video>
+                    <div class="modal-body" style="align-content: center; text-align: center;" id="dentroModal">
+                        
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
@@ -155,25 +182,23 @@
             let scanner = new Instascan.Scanner({ video: document.getElementById('preview') });
 
             scanner.addListener('scan', function (content) {
-
                 var json = JSON.parse(content)[0];
-
-                
 
                 if (json.hasOwnProperty('cpfCnpj')) {
 
-                    console.log("json.cpfCnpj: "+json.cpfCnpj);
+                    /*console.log("json.cpfCnpj: "+json.cpfCnpj);
                     console.log("json.nome: "+json.nome);
                     console.log("json.email: "+json.email);
-                    console.log("json.Linkedin: "+json.Linkedin);
+                    console.log("json.Linkedin: "+json.Linkedin);*/
+                    adicionaElemento(json);
 
-                    console.log('Stand');
+                    $('#adicionaModal').modal('toggle');
+
+                    alert("Contato adicionado.");
+
                 } else {
                     console.log('Participante');
                 }
-
-
-                
 /*
 {
     "cpfCnpj": 123456,
@@ -182,7 +207,6 @@
     "Linkedin": "linkedin.com/douglas.nunes"
 }
 */
-
             });
 
             $("#btnAdiciona").click(function () {
@@ -203,10 +227,31 @@
                 });
             });
 
+
             $('#adicionaModal').on('hidden.bs.modal', function (e) {
                 scanner.stop();
             });
         });
+
+        function adicionaElemento(json) {
+            let string = "";
+            string += "<a data-toggle='modal' data-target='#modelDados' onClick='adicionaDentroModal();'>";
+            string += "<div class='col-8 offset-2 botaoEvento'>";
+            string += "Nome: "+json.nome+"<br>";
+            string += "Email: "+json.email+"<br>";
+            string += "</div></a><br>";
+            $( "#divContato" ).append(string);
+        }
+
+        function adicionaDentroModal(json) {
+            let string = "";
+            string += "Nome: "+json.nome+"<br>";
+            string += "Email: "+json.email+"<br>";
+            string += "Linkedin: "+json.Linkedin+"<br>";
+            $( "#dentroModal" ).append(string);
+            
+        }
+
 
     </script>
 
