@@ -1,3 +1,8 @@
+<?php
+
+require_once("funcoes.php");
+
+?>
 <!DOCTYPE html>
 <html>
 
@@ -20,62 +25,9 @@
 </head>
 
 <body id="page-top" class="sidebar-toggled">
-<div class="mobile-menu">
-    <ul class="bottom-navbar-nav">
-        <li class="bottom-nav-item active">
-            <a href="index.html" class="bottom-nav-link">
-                <i class="fas fa-fw fa-home"></i>
-                <span>Início</span>
-            </a>
-        </li>
-        <li class="bottom-nav-item">
-            <a data-toggle="modal" data-target="#loginModal" class="bottom-nav-link">
-                <i class="fas fa-fw fa-handshake"></i>
-                <span>Login</span>
-            </a>
-        </li>
-        <li class="bottom-nav-item">
-            <a data-toggle="modal" data-target="#cadastroModal" class="bottom-nav-link">
-                <i class="fas fa-fw fa-handshake"></i>
-                <span>Cadastrar-se</span>
-            </a>
-        </li>
-        <li class="bottom-nav-item">
-            <a href="cadastra-evento.html" class="bottom-nav-link">
-                <i class="fas fa-fw fa-handshake"></i>
-                <span>Publicar</span>
-            </a>
-        </li>
-
-    </ul>
-</div>
+<?= incluiSidebarMobileNaoLogado(); ?>
 <div id="wrapper">
-    <ul class="sidebar toggled navbar-nav" style="background: #f50136;">
-        <li class="nav-item active">
-            <a class="nav-link" href="#page-top">
-                <i class="fas fa-fw fa-home"></i>
-                <span>Início</span>
-            </a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" data-toggle="modal" data-target="#loginModal">
-                <i class="fas fa-fw fa-handshake"></i>
-                <span>Login</span>
-            </a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" data-toggle="modal" data-target="#cadastroModal">
-                <i class="fas fa-fw fa-handshake"></i>
-                <span>Cadastrar-se</span>
-            </a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="cadastra-evento.html">
-                <i class="fas fa-fw fa-handshake"></i>
-                <span>Publicar evento</span>
-            </a>
-        </li>
-    </ul>
+    <?= incluiSidebarNaoLogado() ?>
 
     <div id="content-wrapper">
         <header class="masthead text-center text-white d-flex" style="background-image: url('assets/img/header.jpg');">
@@ -182,22 +134,6 @@
             </div>
         </div>
     </div>
-
-    <!-- Cadastro Modal -->
-    <div id="cadastroModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h3>Criar conta</h3>
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                </div>
-                <div class="modal-body">
-                    <form class="form" action="dashboard.php" role="form" autocomplete="off" id="formCadastro" novalidate="" method="POST">
-                        <div class="form-group">
-                            <!--<a href="" class="float-right">Novo usuário?</a>-->
-                            <label for="nomeCompletoCadastro">Nome Completo</label>
-                            <input type="text" class="form-control form-control-lg" name="nomeCompletoCadastro" id="nomeCompletoCadastro" required>
-                            <div class="invalid-feedback">Oops, você esqueceu esse campo.</div>
         </section>
         -->
         <section id="portfolio" class="p-0">
