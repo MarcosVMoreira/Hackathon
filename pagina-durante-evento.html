@@ -11,8 +11,11 @@
     <link rel="stylesheet" href="assets/css/snippet.css" type="text/css">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic">
+    <link rel="stylesheet" href="assets/css/updates.css">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
@@ -20,219 +23,278 @@
 
 <body id="page-top" class="sidebar-toggled">
 
-    <div class="mobile-menu">
-        <ul class="bottom-navbar-nav">
-            <li class="bottom-nav-item active">
-                <a href="index.html" class="bottom-nav-link">
-                    <i class="fas fa-fw fa-home"></i>
-                    <span>Início</span>
-                </a>
-            </li>
-            <li class="bottom-nav-item">
-                <a data-toggle="modal" data-target="#loginModal" class="bottom-nav-link">
-                    <i class="fas fa-fw fa-handshake"></i>
-                    <span>Contatos</span>
-                </a>
-            </li>
-            <li class="bottom-nav-item">
-                <a data-toggle="modal" data-target="#cadastroModal" class="bottom-nav-link">
-                    <i class="fas fa-fw fa-handshake"></i>
-                    <span>Cadastrar-se</span>
-                </a>
-            </li>
-            <li class="bottom-nav-item">
-                <a href="cadastra-evento.html" class="bottom-nav-link">
-                    <i class="fas fa-fw fa-handshake"></i>
-                    <span>Publicar</span>
-                </a>
-            </li>
+<div class="mobile-menu">
+    <ul class="bottom-navbar-nav">
+        <li class="bottom-nav-item active">
+            <a href="index.html" class="bottom-nav-link">
+                <i class="fas fa-fw fa-home"></i>
+                <span>Início</span>
+            </a>
+        </li>
+        <li class="bottom-nav-item">
+            <a data-toggle="modal" data-target="#loginModal" class="bottom-nav-link">
+                <i class="fas fa-fw fa-handshake"></i>
+                <span>Contatos</span>
+            </a>
+        </li>
+        <li class="bottom-nav-item">
+            <a data-toggle="modal" data-target="#cadastroModal" class="bottom-nav-link">
+                <i class="fas fa-fw fa-handshake"></i>
+                <span>Cadastrar-se</span>
+            </a>
+        </li>
+        <li class="bottom-nav-item">
+            <a href="cadastra-evento.html" class="bottom-nav-link">
+                <i class="fas fa-fw fa-handshake"></i>
+                <span>Publicar</span>
+            </a>
+        </li>
 
-        </ul>
-    </div>
+    </ul>
+</div>
 
-    <div id="wrapper">
-        <ul class="sidebar toggled navbar-nav" style="background: #f50136;">
-            <li class="nav-item active">
-                <a class="nav-link" href="#page-top">
-                    <i class="fas fa-fw fa-home"></i>
-                    <span>Início</span>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" data-toggle="modal" data-target="#loginModal">
-                    <i class="fas fa-fw fa-handshake"></i>
-                    <span>Contatos</span>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" data-toggle="modal" data-target="#cadastroModal">
-                    <i class="fas fa-fw fa-handshake"></i>
-                    <span>Cadastrar-se</span>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="cadastra-evento.html">
-                    <i class="fas fa-fw fa-handshake"></i>
-                    <span>Publicar evento</span>
-                </a>
-            </li>
-        </ul>
+<div id="wrapper">
+    <ul class="sidebar toggled navbar-nav" style="background: #f50136;">
+        <li class="nav-item active">
+            <a class="nav-link" href="#page-top">
+                <i class="fas fa-fw fa-home"></i>
+                <span>Início</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="modal" data-target="#loginModal">
+                <i class="fas fa-fw fa-handshake"></i>
+                <span>Contatos</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="modal" data-target="#cadastroModal">
+                <i class="fas fa-fw fa-handshake"></i>
+                <span>Cadastrar-se</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="cadastra-evento.html">
+                <i class="fas fa-fw fa-handshake"></i>
+                <span>Publicar evento</span>
+            </a>
+        </li>
+    </ul>
 
-        <div id="content-wrapper">
-            <header class="masthead text-center text-white d-flex"
+    <div id="content-wrapper">
+        <header class="masthead text-center text-white d-flex"
                 style="background-image: url('assets/img/header.jpg');">
-                <div class="container my-auto">
-                    <div class="row">
-                        <div class="col-lg-12 mx-auto">
-                            <h1 class="text-uppercase"><strong>Empreenda Poços</strong></h1>
-                            <hr>
-                        </div>
+            <div class="container my-auto">
+                <div class="row" style="position: absolute; top: 20px; right: 30px;">
+                    <div class="col-lg-12" style="right:0;">
+                        <strong>OnTrack Points: 236 </strong>
                     </div>
                 </div>
-            </header>
 
-            <section id="read-qrCode" style="background: white;">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col offset-lg-8 mx-auto text-center">
-                                Faça uma parada durante sua trilha!
-                            </div>
-                        </div>
-                        <br>
-                        <div class="row">
-                            <div class="col offset-lg-8 mx-auto text-center">
-                                <button class="btn btn-primary" id="btnScanQr" data-toggle="modal" data-target="#qrModal">Escanear
-                                    código
-                                </button>
-                            </div>
-                        </div>
+                <div class="row">
+                    <div class="col-lg-12 mx-auto">
+                        <h1 class="text-uppercase"><strong>Empreenda Poços</strong></h1>
+                        <hr>
                     </div>
-            </section>
+                </div>
+            </div>
+        </header>
 
-            <section id="financiamento" class="bg-primary">
+        <section id="read-qrCode" style="background: white;">
+            <div class="container">
+                <div class="row">
+                    <div class="col offset-lg-8 mx-auto text-center">
+                        <strong>Faça uma parada durante sua trilha e ganhe OnTrack Points!</strong>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col offset-lg-8 mx-auto text-center">
+                        <button class="btn btn-primary" id="btnScanQr" data-toggle="modal" data-target="#qrModal">
+                            Escanear
+                            código
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="financiamento" class="bg-primary">
+            <div class="container">
                 <div class="container">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-6 offset-md-3">
-                                <h4 style="color: white;">Minha trilha</h4>
-                                <ul class="timeline">
-                                    <li>
-                                        <div class="linkSnippet">08:00</div>
-                                        <div class="textoSnipper">
-                                            <p>Abertura do evento</p>
-                                            Local: Salão II
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="linkSnippet">12:00</div>
-                                        <div class="textoSnipper">
-                                            <p>Almoço</p>
-                                            Local: Refeitório
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="linkSnippet">14:00</div>
-                                        <div class="textoSnipper">
-                                            <p>Palestra Barack Obama</p>
-                                            Local: Auditório IV
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="linkSnippet">20:00</div>
-                                        <div class="textoSnipper">
-                                            <p>Encerramento do evento</p>
-                                            Local: Sala II
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
                     <div class="row">
                         <div class="col-md-6 offset-md-3">
-                            <button type="submit" class="btn btn-primary botaoAlteraTrilha">Alterar minha trilha</button>
+                            <h4 style="color: white;">Minha trilha</h4>
+                            <ul class="timeline">
+                                <li>
+                                    <div class="linkSnippet">08:00</div>
+                                    <div class="textoSnipper">
+                                        <p>Abertura do evento</p>
+                                        Local: Salão II
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="linkSnippet">12:00</div>
+                                    <div class="textoSnipper">
+                                        <p>Almoço</p>
+                                        Local: Refeitório
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="linkSnippet">14:00</div>
+                                    <div class="textoSnipper">
+                                        <p>Palestra Barack Obama</p>
+                                        Local: Auditório IV
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="linkSnippet">20:00</div>
+                                    <div class="textoSnipper">
+                                        <p>Encerramento do evento</p>
+                                        Local: Sala II
+                                    </div>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
-            </section>
-        </div>
 
+                <div class="row">
+                    <div class="col-md-6 offset-md-3">
+                        <button type="submit" class="btn btn-primary botaoAlteraTrilha">Alterar minha trilha</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="updates" style="background: white;">
+            <div class="container">
+                <div class="row">
+                    <div class="col offset-lg-8 mx-auto text-center">
+                        <strong>Fique por dentro do que está acontecendo!</strong>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+
+                    <div class="col-md-4 col-12 text-center" style="padding: 10px;">
+                        <!--Simple Card with Status Highlight-->
+                        <div class="block-update-card">
+                            <div class="v-status">
+                            </div>
+                            <div class="update-card-body">
+                                <h4>Organização - 14:25</h4>
+                                <p>Acontecerá agora o anúncio dos resultados da competição</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-12 text-center" style="padding: 10px;">
+                        <!--Simple Card with Status Highlight-->
+                        <div class="block-update-card">
+                            <div class="v-status">
+                            </div>
+                            <div class="update-card-body">
+                                <h4>Patrocinador X - 13:58</h4>
+                                <p>Ao final do evento, teremos uma surpresa especial, não perca!</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-12 text-center" style="padding: 10px;">
+                        <!--Simple Card with Status Highlight-->
+                        <div class="block-update-card">
+                            <div class="v-status">
+                            </div>
+                            <div class="update-card-body">
+                                <h4>Organização - 12:00</h4>
+                                <p>Sejam todos bem-vindos! Nosso almoço está sendo servido no refeitório.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
     </div>
 
-    <!-- QR Modal -->
-    <div id="qrModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h3>Escanear QR Code</h3>
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                </div>
-                <div class="modal-body" style="align-content: center; text-align: center;">
-                    <video id="preview" style="max-height: 60% !important;"></video>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-                </div>
+</div>
+
+<!-- QR Modal -->
+<div id="qrModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Escanear QR Code</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            </div>
+            <div class="modal-body" style="align-content: center; text-align: center;">
+                <video id="preview" style="max-height: 60% !important;"></video>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
             </div>
         </div>
     </div>
+</div>
 
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
-    <script src="assets/js/floatLabels.js"></script>
-    <script src="assets/js/script.min.js"></script>
-    <script src="https://rawgit.com/schmich/instascan-builds/master/instascan.min.js"></script>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
+<script src="assets/js/floatLabels.js"></script>
+<script src="assets/js/script.min.js"></script>
+<script src="https://rawgit.com/schmich/instascan-builds/master/instascan.min.js"></script>
 
-    <script type="text/javascript">
+<script type="text/javascript">
 
-        $(document).ready(function () {
+    $(document).ready(function () {
 
-            let scanner = new Instascan.Scanner({ video: document.getElementById('preview') });
+        let scanner = new Instascan.Scanner({video: document.getElementById('preview')});
 
-            scanner.addListener('scan', function (content) {
+        scanner.addListener('scan', function (content) {
 
-                var json = JSON.parse(content)[0];
+            var json = JSON.parse(content)[0];
 
-                console.log(json);
+            console.log(json);
 
-                if (json.hasOwnProperty('idAtividade')) {
-                    console.log('Stand');
+            if (json.hasOwnProperty('idAtividade')) {
+                console.log('Stand');
+            } else {
+                console.log('Participante');
+            }
+
+            alert(content);
+
+        });
+
+        $("#btnScanQr").click(function () {
+            Instascan.Camera.getCameras().then(function (cameras) {
+
+                if (cameras.length > 1) {
+                    scanner.start(cameras[1]);
+
+                } else if (cameras.length > 0) {
+                    scanner.start(cameras[0]);
+
                 } else {
-                    console.log('Participante');
+                    console.error('No cameras found.');
                 }
 
-                alert(content);
-
-            });
-
-            $("#btnScanQr").click(function () {
-                Instascan.Camera.getCameras().then(function (cameras) {
-
-                    if (cameras.length > 1) {
-                        scanner.start(cameras[1]);
-
-                    } else if (cameras.length > 0) {
-                        scanner.start(cameras[0]);
-
-                    } else {
-                        console.error('No cameras found.');
-                    }
-
-                }).catch(function (e) {
-                    console.error(e);
-                });
-            });
-
-            $('#qrModal').on('hidden.bs.modal', function (e) {
-                scanner.stop();
+            }).catch(function (e) {
+                console.error(e);
             });
         });
 
-    </script>
+        $('#qrModal').on('hidden.bs.modal', function (e) {
+            scanner.stop();
+        });
+    });
+
+</script>
 
 </body>
 
