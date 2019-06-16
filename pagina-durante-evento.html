@@ -119,43 +119,14 @@
                         <div class="row">
                             <div class="col-md-6 offset-md-3">
                                 <h4 style="color: white;">Minha trilha</h4>
-                                <ul class="timeline">
-                                    <li>
-                                        <div class="linkSnippet">08:00</div>
-                                        <div class="textoSnipper">
-                                            <p>Abertura do evento</p>
-                                            Local: Salão II
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="linkSnippet">12:00</div>
-                                        <div class="textoSnipper">
-                                            <p>Almoço</p>
-                                            Local: Refeitório
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="linkSnippet">14:00</div>
-                                        <div class="textoSnipper">
-                                            <p>Palestra Barack Obama</p>
-                                            Local: Auditório IV
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="linkSnippet">20:00</div>
-                                        <div class="textoSnipper">
-                                            <p>Encerramento do evento</p>
-                                            Local: Sala II
-                                        </div>
-                                    </li>
-                                </ul>
+                                <ul class="timeline"></ul>
                             </div>
                         </div>
                     </div>
 
                     <div class="row">
                         <div class="col-md-6 offset-md-3">
-                            <button type="submit" class="btn btn-primary botaoAlteraTrilha">Alterar minha trilha</button>
+                            <a href="monteSuaTrilha.php"><button type="button" class="btn btn-primary botaoAlteraTrilha">Alterar minha trilha</button></a>
                         </div>
                     </div>
                 </div>
@@ -235,6 +206,50 @@
                 scanner.stop();
             });
         });
+
+    </script>
+    <script>
+        let timeline = document.querySelector(".timeline");
+        if (localStorage.getItem("trilha") === null) {
+            console.log("entrou");
+            let minhaTrilha = [
+                {
+                    horario: "09:00",
+                    atividade: "Abertura do evento",
+                    local: "Salão II"
+                },
+                {
+                    horario: "12:00",
+                    atividade: "Almoço",
+                    local: "Refeitório"
+                },
+                {
+                    horario: "14:00",
+                    atividade: "Palestra Barack Obama",
+                    local: "Auditório IV"
+                },
+                {
+                    horario: "20:00",
+                    atividade: "Encerramento do evento",
+                    local: "Salão II"
+                },
+            ];
+            localStorage.setItem("trilha", JSON.stringify(minhaTrilha));
+        }
+        console.log(localStorage.getItem("trilha"));
+        let obj = JSON.parse(localStorage.getItem("trilha"));
+        let string = "";
+        for(let index in obj){
+            string += "<li>";
+            string += "<div class='linkSnippet'>" + obj[index].horario + "</div>";
+            string += "<div class='textoSnipper'>";
+            string += "<p>" + obj[index].atividade + "</p>";
+            string += "Local: " + obj[index].local;
+            string += "</div>";
+            string += "</li>";
+        }
+
+        timeline.innerHTML = string;
 
     </script>
 
