@@ -1,3 +1,8 @@
+<?php
+
+require_once("funcoes.php");
+
+?>
 <!doctype html>
 <html lang="en">
 
@@ -16,124 +21,52 @@
 
 <body>
 <div class="wrapper ">
-    <div class="sidebar" data-color="purple" data-background-color="white">
-        <!--
-        Tip 1: You can change the color of the sidebar using: data-color="purple | azure | green | orange | danger"
-
-        Tip 2: you can also add an image using data-image tag
-    -->
-        <div class="logo">
-            <a href="http://www.creative-tim.com" class="simple-text logo-mini">
-                OnTrack
-            </a>
-            <a href="http://www.creative-tim.com" class="simple-text logo-normal">
-                Painel do Organizador
-            </a>
-        </div>
-        <div class="sidebar-wrapper">
-            <ul class="nav">
-                <li class="nav-item active  ">
-                    <a class="nav-link" href="#0">
-                        <i class="material-icons">dashboard</i>
-                        <p>Meus Eventos</p>
-                    </a>
-                </li>
-                <li class="nav-item ">
-                    <a class="nav-link" href="./user.html">
-                        <i class="material-icons">person</i>
-                        <p>Meu Perfil</p>
-                    </a>
-                </li>
-                <li class="nav-item ">
-                    <a class="nav-link" href="./tables.html">
-                        <i class="material-icons">content_paste</i>
-                        <p>Logout</p>
-                    </a>
-                </li>
-                <!-- your sidebar here -->
-            </ul>
-        </div>
-    </div>
+	<?= incluiSidebarEvento(1); ?>
     <div class="main-panel">
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top ">
-            <div class="container-fluid">
-                <div class="navbar-wrapper">
-                    <a class="navbar-brand" href="#pablo">Meu Evento</a>
-                </div>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="navbar-toggler-icon icon-bar"></span>
-                    <span class="navbar-toggler-icon icon-bar"></span>
-                    <span class="navbar-toggler-icon icon-bar"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#pablo">
-                                <i class="material-icons">notifications</i> Notificações
-                            </a>
-                        </li>
-                        <!-- your navbar here -->
-                    </ul>
-                </div>
-            </div>
-        </nav>
+		<?= incluiNavBarEvento(); ?>
         <!-- End Navbar -->
         <div class="content">
-            <div class="card card-nav-tabs">
-                <div class="card-header card-header-success">
-                    Meu Evento
-                </div>
-                <div class="card-body">
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                </div>
-            </div>
             <div class="row">
-                <div class="col-3">
+                <div class="col-4">
                     <div class="card card-stats">
                         <div class="card-header card-header-warning card-header-icon">
                             <div class="card-icon">
                                 <i class="material-icons">content_copy</i>
                             </div>
-                            <p class="card-category">Usuários Inscritos</p>
-                            <h3 class="card-title">785/200</h3>
+                            <p class="card-category">Participantes</p>
+                            <h3 class="card-title">785</h3>
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-4">
                     <div class="card card-stats">
                         <div class="card-header card-header-success card-header-icon">
                             <div class="card-icon">
                                 <i class="material-icons">store</i>
                             </div>
-                            <p class="card-category">Meta</p>
-                            <h3 class="card-title">R$5,000</h3>
+                            <p class="card-category">Novos Hoje</p>
+                            <h3 class="card-title">63</h3>
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-4">
                     <div class="card card-stats">
-                        <div class="card-header card-header-warning card-header-icon">
+                        <div class="card-header card-header-success card-header-icon">
                             <div class="card-icon">
                                 <i class="material-icons">content_copy</i>
                             </div>
-                            <p class="card-category">Arrecadado</p>
-                            <h3 class="card-title">R$27,548
+                            <p class="card-category">Preço médio pago</p>
+                            <h3 class="card-title">R$35,85
                             </h3>
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
-                    <div class="card card-stats">
-                        <div class="card-header card-header-success card-header-icon">
-                            <div class="card-icon">
-                                <i class="material-icons">store</i>
-                            </div>
-                            <p class="card-category">Patrocinadores</p>
-                            <h3 class="card-title">8</h3>
-                        </div>
-                    </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <button class="btn btn-primary">Enviar e-mail</button>
+                    <button class="btn btn-primary">Baixar lista de participantes</button>
                 </div>
             </div>
         </div>
@@ -148,14 +81,6 @@
                         </li>
                     </ul>
                 </nav>
-                <!--
-                <div class="copyright float-right">
-                  &copy;
-                  <script>
-                    document.write(new Date().getFullYear())
-                  </script>, made with <i class="material-icons">favorite</i> by
-                  <a href="https://www.creative-tim.com" target="_blank">Creative Tim</a> for a better web.
-                </div>-->
                 <!-- your footer here -->
             </div>
         </footer>
