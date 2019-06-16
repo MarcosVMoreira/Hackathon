@@ -1,6 +1,6 @@
 <?php
 
-function incluiSidebarEvento($menuAtivo, $nomeEvento = "Nome Evento"){
+function incluiSidebarEvento($menuAtivo, $nomeEvento = "Empreenda Poços"){
 	$links = Array();
 	for($i = 0; $i < 5; $i++){
 		$links[$i]['classe'] = "nav-item";
@@ -14,17 +14,17 @@ function incluiSidebarEvento($menuAtivo, $nomeEvento = "Nome Evento"){
         Tip 2: you can also add an image using data-image tag
     -->
         <div class="logo">
-            <a href="http://www.creative-tim.com" class="simple-text logo-mini">
+            <a href="#" class="simple-text logo-mini">
                 OnTrack
             </a>
-            <a href="http://www.creative-tim.com" class="simple-text logo-normal">
+            <a href="#" class="simple-text logo-normal">
                 Painel do Evento
             </a>
         </div>
         <div class="sidebar-wrapper">
             <ul class="nav">
             <li class="' . $links[0]["classe"] . '">
-                    <a class="nav-link" href="dashboard.php">
+                    <a class="nav-link" href="pagina-evento-dashboard.php">
                         <i class="material-icons">dashboard</i>
                         <p>' . $nomeEvento .'</p>
                     </a>
@@ -61,7 +61,7 @@ function incluiSidebarEvento($menuAtivo, $nomeEvento = "Nome Evento"){
 	return $string;
 }
 
-function incluiNavBarEvento($nomeEvento = "Nome Evento"){
+function incluiNavBarEvento($nomeEvento = "Empreenda Poços"){
 	return '<nav class="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top ">
             <div class="container-fluid">
                 <div class="navbar-wrapper">

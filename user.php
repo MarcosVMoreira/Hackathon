@@ -33,19 +33,19 @@
         <div class="sidebar-wrapper">
             <ul class="nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="#0">
+                    <a class="nav-link" href="dashboard.php">
                         <i class="material-icons">dashboard</i>
                         <p>Meus Eventos</p>
                     </a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="./user.html">
+                    <a class="nav-link" href="user.php">
                         <i class="material-icons">person</i>
                         <p>Meu Perfil</p>
                     </a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link" href="./tables.html">
+                    <a class="nav-link" href="index.php">
                         <i class="material-icons">content_paste</i>
                         <p>Logout</p>
                     </a>

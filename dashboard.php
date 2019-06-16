@@ -23,29 +23,29 @@
       Tip 2: you can also add an image using data-image tag
   -->
       <div class="logo">
-        <a href="http://www.creative-tim.com" class="simple-text logo-mini">
+        <a href="#" class="simple-text logo-mini">
           OnTrack
         </a>
-        <a href="http://www.creative-tim.com" class="simple-text logo-normal">
+        <a href="#" class="simple-text logo-normal">
           Painel do Organizador
         </a>
       </div>
       <div class="sidebar-wrapper">
         <ul class="nav">
           <li class="nav-item active  ">
-            <a class="nav-link" href="#0">
+            <a class="nav-link" href="dashboard.php">
               <i class="material-icons">dashboard</i>
               <p>Meus Eventos</p>
             </a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link" href="./user.html">
+            <a class="nav-link" href="user.php">
               <i class="material-icons">person</i>
               <p>Meu Perfil</p>
             </a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link" href="./tables.html">
+            <a class="nav-link" href="index.php">
               <i class="material-icons">content_paste</i>
               <p>Logout</p>
             </a>
@@ -88,7 +88,7 @@
               <div class="card mb-3">
                 <img class="card-img-top" src="https://images.unsplash.com/photo-1517303650219-83c8b1788c4c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bd4c162d27ea317ff8c67255e955e3c8&auto=format&fit=crop&w=2691&q=80" alt="Card image cap">
                 <div class="card-body">
-                  <h4 class="card-title">Evento 1</h4>
+                  <h4 class="card-title">Empreenda Poços</h4>
                   <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et mollis orci, id bibendum tellus.</p>
                   <p class="card-text"><small class="text-muted">Última atualização 3 mins atrás</small></p>
                 </div>
@@ -98,11 +98,11 @@
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12">
             <div class="container-fluid">
-              <a href="pagina-evento-dashboard.php">
+              <a href="#">
               <div class="card mb-3">
-                <img class="card-img-top" src="https://images.unsplash.com/photo-1517303650219-83c8b1788c4c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bd4c162d27ea317ff8c67255e955e3c8&auto=format&fit=crop&w=2691&q=80" alt="Card image cap">
+                <img class="card-img-top" src="http://www.fjmangabeira.org.br/wp-content/uploads/2017/05/Curso.jpg" alt="Card image cap">
                 <div class="card-body">
-                  <h4 class="card-title">Evento 2</h4>
+                  <h4 class="card-title">Hackathon</h4>
                   <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et mollis orci, id bibendum tellus. Donec placerat lacus libero, sit amet maximus lectus rhoncus quis. In hac habitasse platea dictumst. Praesent augue risus, laoreet eget ligula at, suscipit tempus tellus. Praesent quis feugiat mi. Sed porta sit amet mauris semper suscipit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus</p>
                   <p class="card-text"><small class="text-muted">Última atualização 10 mins atrás</small></p>
                 </div>
@@ -118,7 +118,7 @@
               <div class="card-body">
                 <h4 class="card-title">Organizar Novo Evento</h4>
                 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="novo-evento.html" class="btn btn-primary">Cadastrar</a>
+                <a href="#" class="btn btn-primary">Cadastrar</a>
               </div>
             </div>
           </div>
