@@ -42,7 +42,7 @@ function incluiSidebarEvento($menuAtivo, $nomeEvento = "Empreenda Poços"){
                     </a>
                 </li>
                 <li class="' . $links[3]["classe"] . '">
-                    <a class="nav-link" href="gerenciar-palestrantes.php">
+                    <a class="nav-link" href="cadastrar-stand.php">
                         <i class="material-icons">dashboard</i>
                         <p>Cadastrar Stand</p>
                     </a>

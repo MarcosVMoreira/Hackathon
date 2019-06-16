@@ -142,12 +142,9 @@ require_once("funcoes.php");
                             </div>
                         </div>
                     </div>
-
-
-                
             </section>
 
-            <section id="financiamento" class="bg-primary">
+            <!--<section id="financiamento" class="bg-primary">
                 <div class="container">
                     <div class="container">
                         <div class="row">
@@ -171,7 +168,7 @@ require_once("funcoes.php");
                 </div>
             </div>
 
-        </section>
+        </section>-->
     </div>
 
 </div>
@@ -221,7 +218,7 @@ require_once("funcoes.php");
                 console.log('Participante');
             }
 
-            alert(content);
+            alert("Código lido.");
 
         });
 
@@ -291,6 +288,7 @@ require_once("funcoes.php");
         }
 
         timeline.innerHTML = string;
+
 
     </script>
 
