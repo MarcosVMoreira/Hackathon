@@ -3,12 +3,14 @@
 <p align = "center">
   <img src="https://raw.githubusercontent.com/MarcosVMoreira/Hackathon/master/img/comFundo/logoPequenoComFundoEComTexto.png" alt="Logo do app"/>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Esse repositório contem a aplicação desenvolvida pela equipe **Backend em HTML** durante o [Hackathon IFSULDEMINAS](https://portal.ifsuldeminas.edu.br/index.php/ultimas-noticias-ifsuldeminas/80-noticias-da-pppi/2806-evento-hackathon), garantindo a mesma a 4ª posição no ranking final de equipes e medalhas de honra ao mérito. A aplicação foi desenvolvida para *web* e pode ser facilmente migrada para um aplicativo mobile utilizando tecnologia *PWA*. Tal aplicativo foi desenvolvido por completo em 30 horas, desde a concepção da ideia até a finalização do app. O tema do Hackathon, fornecido *in loco* pela organização do evento, foi "criar uma solução (aplicativo ou software) para eventos. A solução tecnológica deverá ser utilizada pelos organizadores para agrupar e comunicar informações importantes como programação, local e palestrantes. Além disso, deve facilitar o networking entre participates e promover mais engajamento antes, durante e pós evento".
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Esse repositório contem a aplicação desenvolvida pela equipe **Backend em HTML** durante o [Hackathon IFSULDEMINAS](https://portal.ifsuldeminas.edu.br/index.php/ultimas-noticias-ifsuldeminas/80-noticias-da-pppi/2806-evento-hackathon), garantindo a mesma a 4ª posição no ranking final de equipes e medalhas de honra ao mérito. A aplicação foi desenvolvida para *web* e pode ser facilmente migrada para um aplicativo mobile utilizando tecnologia *PWA*. Tal aplicativo foi desenvolvido por completo em 30 horas, desde a concepção da ideia até a finalização do app. O tema do Hackathon, fornecido *in loco* pela organização do evento, foi "criar uma solução (aplicativo ou software) para eventos. A solução tecnológica deverá ser utilizada pelos organizadores para agrupar e comunicar informações importantes como programação, local e palestrantes. Além disso, deve facilitar o networking entre participates e promover mais engajamento antes, durante e pós evento".<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A documentação básica do software, feita durante o período do Hackathon, pode ser baixada [aqui](https://github.com/MarcosVMoreira/Hackathon/blob/master/Artefatos.docx).
+
 
 
 # Funcionalidades diferenciais do app
 
-Algumas funcionalidades não foram implementadas por conta do pouco período para desenvolvimento. Todavia, o frontend de boa parte das funcionalidades foi implementada.
+Algumas funcionalidades não foram implementadas por conta do pouco período para desenvolvimento. Todavia, o frontend de boa parte das funcionalidades foi implementado.
 
 - Financiamento coletivo de eventos corporativos, buscando estimular engajamento da comunidade no fomento de eventos, abdicando do padrão de compra de ingressos para participação de tais eventos
 - Possibilidade, pela organização do evento, de premiação proporcional ao valor doado pelo participante para participação do evento. Exemplo: caso o usuário doe acima de R$ 50,00, o mesmo ganha uma camiseta do evento. Caso doe acima de R$ 100,00, ganha acesso a uma conversa com o palestrante após o evento.
@@ -45,8 +47,168 @@ Algumas funcionalidades não foram implementadas por conta do pouco período par
    </p>
    
    <br>
+   
+  <p align = "center">
+  <img src="https://raw.githubusercontent.com/MarcosVMoreira/Hackathon/master/screenshots/pagEvento-3.png" alt="Tela de evento - parte 1"/>
+   </p>
+   <p align = "center">
+  Tela de evento - parte 1
+   </p>
+   
+   <br>
+      
+  <p align = "center">
+  <img src="https://raw.githubusercontent.com/MarcosVMoreira/Hackathon/master/screenshots/pagEvento-1.png" alt="Tela de evento - parte 2"/>
+   </p>
+   <p align = "center">
+  Tela de evento - parte 2
+   </p>
+   
+   <br>
+   
+  <p align = "center">
+  <img src="https://raw.githubusercontent.com/MarcosVMoreira/Hackathon/master/screenshots/pagEvento-2.png" alt="Tela de evento - parte 3"/>
+   </p>
+   <p align = "center">
+  Tela de evento - parte 3
+   </p>
+   
+   <br>
+      
+  <p align = "center">
+  <img src="https://raw.githubusercontent.com/MarcosVMoreira/Hackathon/master/screenshots/checkinStand.png" alt="Tela para fazer *checkin* no *stand*"/>
+   </p>
+   <p align = "center">
+  Tela para fazer checkin no stand
+   </p>
+   
+   <br>
+      
+  <p align = "center">
+  <img src="https://raw.githubusercontent.com/MarcosVMoreira/Hackathon/master/screenshots/monteSuaTrilha-1.png" alt="Monte sua trilha"/>
+   </p>
+   <p align = "center">
+    Tela monte sua trilha
+   </p>
+   
+   <br>
+      
+  <p align = "center">
+  <img src="https://raw.githubusercontent.com/MarcosVMoreira/Hackathon/master/screenshots/minhaTrilha.png" alt="Minha trilha"/>
+   </p>
+   <p align = "center">
+  Tela minha trilha
+   </p>
+   
+   <br>
+      
+  <p align = "center">
+  <img src="https://raw.githubusercontent.com/MarcosVMoreira/Hackathon/master/screenshots/meusEventos.png" alt="Tela eventos do participante logado"/>
+   </p>
+   <p align = "center">
+  Tela eventos do participante logado
+   </p>
+   
+   <br>
+      
+  <p align = "center">
+  <img src="https://raw.githubusercontent.com/MarcosVMoreira/Hackathon/master/screenshots/progressoCrowdFunding.png" alt="Tela progresso crowdfunding"/>
+   </p>
+   <p align = "center">
+  Tela progresso crowdfunding
+   </p>
+   
+   <br>
+      
+  <p align = "center">
+  <img src="https://raw.githubusercontent.com/MarcosVMoreira/Hackathon/master/screenshots/gerirContatos.png" alt="Tela gerir contatos"/>
+   </p>
+   <p align = "center">
+  Tela gerir contatos
+   </p>
+   
+   <br>
+      
+  <p align = "center">
+  <img src="https://raw.githubusercontent.com/MarcosVMoreira/Hackathon/master/screenshots/gerirContatos-2.png" alt="Tela meu contato"/>
+   </p>
+   <p align = "center">
+  Tela meu contato
+   </p>
+   
+   <br>
+      
+  <p align = "center">
+  <img src="https://raw.githubusercontent.com/MarcosVMoreira/Hackathon/master/screenshots/gerirContatos-3.png" alt="Tela adicionar contato"/>
+   </p>
+   <p align = "center">
+  Tela adicionar contato
+   </p>
+   
+   <br>
+      
+  <p align = "center">
+  <img src="https://raw.githubusercontent.com/MarcosVMoreira/Hackathon/master/screenshots/editarInfo.png" alt="Tela editar informações de evento"/>
+   </p>
+   <p align = "center">
+  Tela editar informações de evento
+   </p>
+   
+   <br>
+      
+  <p align = "center">
+  <img src="https://raw.githubusercontent.com/MarcosVMoreira/Hackathon/master/screenshots/editarMeusEventos.png" alt="Tela visualizar meus eventos"/>
+   </p>
+   <p align = "center">
+  Tela visualizar meus eventos
+   </p>
+   
+   <br>
+      
+  <p align = "center">
+  <img src="https://raw.githubusercontent.com/MarcosVMoreira/Hackathon/master/screenshots/gerenciarParticipante.png" alt="Tela gerenciar participante"/>
+   </p>
+   <p align = "center">
+  Tela gerenciar participante
+   </p>
+   
+   <br>
+      
+  <p align = "center">
+  <img src="https://raw.githubusercontent.com/MarcosVMoreira/Hackathon/master/screenshots/painelDoEvento-1.png" alt="Tela painel do evento - parte 1"/>
+   </p>
+   <p align = "center">
+  Tela painel do evento - parte 1
+   </p>
+   
+   <br>
+      
+  <p align = "center">
+  <img src="https://raw.githubusercontent.com/MarcosVMoreira/Hackathon/master/screenshots/painelDoEvento-2.png" alt="Tela painel do evento - parte 2"/>
+   </p>
+   <p align = "center">
+  Tela painel do evento - parte 2
+   </p>
+   
+   <br>
+      
+   
+# Tecnologias utilizadas
 
-# Pré-Requisitos
+- Bootstrap Studio
+- CSS
+- JavaScript
+- PHP
+- Material Dashboard
+- MD Bootstrap
+- MySQL
+- JQuery
+- AlertfyJS
+- FloatLabel
+- QR Server
+- InstaScan
+- ChartISP
+- FontAwesome
 
 
 # Equipe
